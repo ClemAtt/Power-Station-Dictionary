@@ -1,0 +1,10 @@
+{
+  "$id": "https://osuked.github.io/Power-Station-Dictionary/power-station",
+
+  "type": "object",
+  "properties": {
+    "capacity": { "type": "float" },
+    "fuel-type": { "type": "string" }
+  },
+  "required": ["capacity", "fuel-type"]
+}
